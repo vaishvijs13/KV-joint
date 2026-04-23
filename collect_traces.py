@@ -136,8 +136,6 @@ def save_trace(trace, output_path):
         'keys': trace.get('keys'),
         'values': trace.get('values'),
         'attn_scores': trace.get('attn_scores'),
-        'keys_per_step': trace.get('keys_per_step'),
-        'values_per_step': trace.get('values_per_step'),
         'input_ids': trace.get('input_ids'),
         'generated_ids': trace.get('generated_ids'),
         'config': trace.get('config'),

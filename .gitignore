@@ -1,6 +1,5 @@
 traces/
 agents/
-results/
 *.pt
 __pycache__/
 *.pyc
